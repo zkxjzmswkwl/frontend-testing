@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #a0a0a0;
+    font-family: Roboto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#goldfinger {
+    color: rgb(218, 185, 4);
+    // animation: fadeIn;
+    // -webkit-animation: fadeIn;
+    // animation-duration: 5s;
+}
+
+#divider {
+    color: rgb(218, 185, 4);
+    // animation: fadeIn;
+    // -webkit-animation: fadeIn;
+    // animation-duration: 2s;
+}
